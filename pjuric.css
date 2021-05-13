@@ -1,0 +1,143 @@
+
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(144deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9026961126247374) 69%, rgba(0,212,255,1) 100%);
+}
+
+table {
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
+    border-spacing: 0;
+    font-family: Oxygen;
+    background-color: #275892;
+    letter-spacing: 1px;
+}
+
+th, td {
+    border: 1px solid #8F8F8F;
+    width: 12%;
+}
+
+th {
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: #4893e6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ a:hover {
+        color: yellow;
+    }
+
+.menu a {
+    font-weight: bold;
+}
+
+.menu a:hover {
+        text-decoration: underline;
+    }
+
+a.link {
+    background-color: #052869;
+}
+
+a.sortable {
+    color: #FF8C00;
+}
+
+h1 {
+    font-size: large;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+p, ul {
+    font-size: small;
+}
+
+h2, caption {
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+figure {
+    margin: 0;
+}
+
+.greska {
+    font-weight: bolder;
+    color: #f83b21;
+}
+
+.menu {
+    background-color: #275892;
+    padding: 3px;
+    text-align: center;
+    margin: 16px;
+}
+
+.aktivna {
+    color: yellow;
+    font-weight: bold;
+}
+
+.lijevi {
+    width: 20%;
+}
+
+#sadrzaj {
+    clear: both;
+}
+
+#opis {
+    padding-left: 5px;
+    font-size:14px;
+}
+
+#paginacija {
+    text-align: center;
+    background-color: #0a50a2;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    margin-left: 10px;
+    border: solid;
+    border-color: black;
+}
+
+.pomak {
+    float: left;
+    margin-right: 1%;
+}
+
+img.slika {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 15px;
+}
+
